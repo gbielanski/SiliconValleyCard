@@ -22,14 +22,14 @@
            <ImageView
                android:layout_width="match_parent"
                android:layout_height="match_parent"
-               android:src="@drawable/richard"
+               android:src="@drawable/gilfoyle"
                android:scaleType="centerCrop"
                />
            <TextView
                android:layout_width="match_parent"
                android:layout_height="wrap_content"
                android:background="@android:color/white"
-               android:text="Good"
+               android:text="@string/text_top_left"
                android:layout_alignParentBottom="true"
                android:gravity="center"
                android:textSize="34sp"
@@ -49,7 +49,7 @@
                android:layout_width="match_parent"
                android:layout_height="wrap_content"
                android:background="@android:color/white"
-               android:text="Luck"
+               android:text="@string/text_top_right"
                android:layout_alignParentBottom="true"
                android:gravity="center"
                android:textSize="34sp"
@@ -68,14 +68,14 @@
             <ImageView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:src="@drawable/jared"
+                android:src="@drawable/erlich"
                 android:scaleType="centerCrop"
                 />
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:background="@android:color/white"
-                android:text="Android"
+                android:text="@string/text_bottom_left"
                 android:layout_alignParentBottom="true"
                 android:gravity="center"
                 android:textSize="34sp"
@@ -88,14 +88,14 @@
             <ImageView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:src="@drawable/carla"
+                android:src="@drawable/bighead"
                 android:scaleType="centerCrop"
                 />
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:background="@android:color/white"
-                android:text="Developer"
+                android:text="@string/text_bottom_right"
                 android:layout_alignParentBottom="true"
                 android:gravity="center"
                 android:textSize="34sp"
