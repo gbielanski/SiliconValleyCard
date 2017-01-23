@@ -20,40 +20,22 @@
            android:layout_height="wrap_content"
            android:layout_weight="1">
            <ImageView
-               android:layout_width="match_parent"
-               android:layout_height="match_parent"
-               android:src="@drawable/gilfoyle"
-               android:scaleType="centerCrop"
-               />
+               style="@style/ImageViewSiliconValley"
+               android:src="@drawable/gilfoyle"/>
            <TextView
-               android:layout_width="match_parent"
-               android:layout_height="wrap_content"
-               android:background="@android:color/white"
-               android:text="@string/text_top_left"
-               android:layout_alignParentBottom="true"
-               android:gravity="center"
-               android:textSize="34sp"
-               android:textColor="#A4C639"/>
+               style="@style/TextViewAndroidStyle"
+               android:text="@string/text_top_left"/>
        </RelativeLayout>
        <RelativeLayout
            android:layout_width="0dp"
            android:layout_height="wrap_content"
            android:layout_weight="1">
            <ImageView
-               android:layout_width="match_parent"
-               android:layout_height="match_parent"
-               android:src="@drawable/dinesh"
-               android:scaleType="centerCrop"
-               />
+               style="@style/ImageViewSiliconValley"
+               android:src="@drawable/dinesh"/>
            <TextView
-               android:layout_width="match_parent"
-               android:layout_height="wrap_content"
-               android:background="@android:color/white"
-               android:text="@string/text_top_right"
-               android:layout_alignParentBottom="true"
-               android:gravity="center"
-               android:textSize="34sp"
-               android:textColor="#A4C639"/>
+               style="@style/TextViewAndroidStyle"
+               android:text="@string/text_top_right"/>
        </RelativeLayout>
     </LinearLayout>
     <LinearLayout
@@ -66,40 +48,23 @@
             android:layout_height="wrap_content"
             android:layout_weight="1">
             <ImageView
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:src="@drawable/erlich"
-                android:scaleType="centerCrop"
-                />
+                style="@style/ImageViewSiliconValley"
+                android:src="@drawable/erlich"/>
             <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:background="@android:color/white"
-                android:text="@string/text_bottom_left"
-                android:layout_alignParentBottom="true"
-                android:gravity="center"
-                android:textSize="34sp"
-                android:textColor="#A4C639"/>
+                style="@style/TextViewAndroidStyle"
+                android:text="@string/text_bottom_left"/>
         </RelativeLayout>
         <RelativeLayout
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1">
             <ImageView
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
+                style="@style/ImageViewSiliconValley"
                 android:src="@drawable/bighead"
-                android:scaleType="centerCrop"
                 />
             <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:background="@android:color/white"
-                android:text="@string/text_bottom_right"
-                android:layout_alignParentBottom="true"
-                android:gravity="center"
-                android:textSize="34sp"
-                android:textColor="#A4C639"/>
+                style="@style/TextViewAndroidStyle"
+                android:text="@string/text_bottom_right"/>
         </RelativeLayout>
     </LinearLayout>
 </LinearLayout>
