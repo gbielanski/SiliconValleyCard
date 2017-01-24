@@ -10,33 +10,22 @@
     tools:context=".MainActivity"
     android:orientation="vertical">
 
-   <LinearLayout
+
+    <LinearLayout
        android:layout_width="match_parent"
        android:layout_height="0dp"
        android:layout_weight="1"
        android:orientation="horizontal">
-       <RelativeLayout
-           android:layout_width="0dp"
-           android:layout_height="wrap_content"
-           android:layout_weight="1">
-           <ImageView
-               style="@style/ImageViewSiliconValley"
-               android:src="@drawable/gilfoyle"/>
-           <TextView
-               style="@style/TextViewAndroidStyle"
-               android:text="@string/text_top_left"/>
-       </RelativeLayout>
-       <RelativeLayout
-           android:layout_width="0dp"
-           android:layout_height="wrap_content"
-           android:layout_weight="1">
-           <ImageView
-               style="@style/ImageViewSiliconValley"
-               android:src="@drawable/dinesh"/>
-           <TextView
-               style="@style/TextViewAndroidStyle"
-               android:text="@string/text_top_right"/>
-       </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        <ImageView
+            style="@style/ImageViewSiliconValley"
+            android:src="@drawable/valley"/>
+            <TextView
+                style="@style/TextViewAndroidStyle"
+                android:text="@string/text_top"/>
+        </RelativeLayout>
     </LinearLayout>
     <LinearLayout
         android:layout_width="match_parent"
@@ -47,9 +36,12 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1">
-            <ImageView
-                style="@style/ImageViewSiliconValley"
-                android:src="@drawable/erlich"/>
+            <de.hdodenhof.circleimageview.CircleImageView
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:src="@drawable/gavin"
+                app:civ_border_width="2dp"
+                app:civ_border_color="#FF000000"
+                style="@style/ImageViewSiliconValley"/>
             <TextView
                 style="@style/TextViewAndroidStyle"
                 android:text="@string/text_bottom_left"/>
@@ -58,10 +50,12 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1">
-            <ImageView
-                style="@style/ImageViewSiliconValley"
-                android:src="@drawable/bighead"
-                />
+            <de.hdodenhof.circleimageview.CircleImageView
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:src="@drawable/peter"
+                app:civ_border_width="2dp"
+                app:civ_border_color="#FF000000"
+                style="@style/ImageViewSiliconValley"/>
             <TextView
                 style="@style/TextViewAndroidStyle"
                 android:text="@string/text_bottom_right"/>

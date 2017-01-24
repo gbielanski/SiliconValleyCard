@@ -1,8 +1,9 @@
 <resources>
-    <string name="app_name">Silicon Valley Card #2</string>
+    <string name="app_name">Silicon Valley Card #3</string>
     <string name="action_settings">Settings</string>
     <string name="text_top_left">Good</string>
     <string name="text_top_right">Luck</string>
     <string name="text_bottom_left">Android</string>
     <string name="text_bottom_right">Developer</string>
+    <string name="text_top">Enjoy your course</string>
 </resources>
